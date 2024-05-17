@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>hfut同学个人网页（课程设计）</title>
+		<style type="text/css">
+			/* CSS Document */
+			* {
+				margin: 0;
+				padding: 0;
+				/* 重置所有元素的内外边距 */
+			}
+			a {
+				text-decoration: none;
+				/* 去除所有链接的下划线 */
+			}
+			.clearfix:after {
+				content: "";
+				display: block;
+				height: 0;
+				visibility: hidden;
+				clear: both;
+				/* 创建clearfix伪元素，用于清除浮动 */
+			}
+			.clearfix {
+				*zoom: 1;
+				/* 针对旧版IE的清除浮动 */
+			}
+			body {
+				background: url(./a1.png) no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				/* 设置页面背景图，并使其随页面滚动而固定 */
+			}
+			.content {
+				width: 900px;
+				height: 500px;
+				margin: 200px auto 0 auto;
+				border-radius: 10px;
+				background-color: rgba(236, 236, 236, 0.59);
+				transition: all 1.0s;
+				/* 定义主内容区域的样式，包括尺寸、边距、圆角、背景色和过渡效果 */
+				/* box-shadow: 0px 0px 20px rgba(0,0,0,0.3); */
+			}
+			.content img {
+				float: left;
+				width: 200px;
+				height: 200px;
+				margin: 150px 0 0 80px;
+				border-radius: 100px;
+				/* 设置左侧头像图片的样式，包括浮动、尺寸、边距和圆角 */
+			}
+			.content:hover {
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.52);
+				/* 鼠标悬停时为主内容区域添加阴影效果 */
+			}
+			.content_r {
+				float: right;
+				width: 500px;
+				margin: 80px 60px 0 0;
+				/* 定义主内容区域右侧部分的样式，包括浮动、宽度和边距 */
+				/*	background-color: pink; */
+			}
+			.content_l {
+				float: left;
+				width: 100%;
+				text-align: center;
+				/* 定义主内容区域左侧部分的样式，包括浮动、宽度和文本对齐方式 */
+			}
+			.content_l h5 {
+				font-size: 17px;
+				/* 设置标题字体大小 */
+			}
+			.cc {
+				margin-top: 10px;
+				color: #1F2023;
+				font-size: 18px;
+				/* 设置段落的样式，包括上边距、文字颜色和字体大小 */
+			}
+			.color_1 {
+				color: #4855EC;
+				font-size: 18px;
+				/* 设置特定段落的样式，包括文字颜色和字体大小 */
+			}
+			.deeppink {
+				color: deeppink;
+				/* 设置特定段落的样式，文字颜色为深粉色 */
+			}
+			.link {
+				margin-top: 30px;
+				/* 为链接区域设置上边距 */
+			}
+			.link a {
+				display: block;
+				float: left;
+				width: 120px;
+				height: 45px;
+				margin: 5px 5px 0 0;
+				color: #fff;
+				line-height: 45px;
+				transition: all 0.8s;
+				/* 设置链接按钮的样式，包括显示方式、浮动、尺寸、边距、文字颜色、行高和过渡效果 */
+				/*	background-color: deeppink; */
+			}
+			.link a:hover {
+				background-color: rgba(0, 201, 243, 0.35);
+				/* 鼠标悬停时为链接按钮添加背景颜色 */
+			}
+			.deeppink_1 {
+				background-color: deeppink;
+				/* 设置特定链接按钮的背景颜色为深粉色 */
+			}
+			.dodgerblue {
+				background-color: dodgerblue;
+				/* 设置特定链接按钮的背景颜色为道奇蓝 */
+			}
+			.magenta {
+				background-color: magenta
+								/* 设置特定链接按钮的背景颜色为品红色 */
+			}
+
+.orange {
+	background-color: orange;
+	/* 设置特定链接按钮的背景颜色为橙色 */
+}
+</style>
+</head>
+
+<body>
+<div class="content">
+<img src="./a2.png" alt="">
+<!-- 显示个人头像，图片源为a2.png -->
+<div class="content_r clearfix">
+	<!-- 右侧内容区域，使用clearfix清除浮动 -->
+	<div class="content_l clearfix">
+		<!-- 左侧内容区域，使用clearfix清除浮动 -->
+		<h2>Hi~ 我是hfutcser同学， Welcome here ！</h2>
+		<!-- 页面欢迎标题 -->
+		<p class="cc">欢迎来到我的主页，一位热爱编程的小渣渣~</p>
+		<!-- 个人简介第一句 -->
+		<p class="cc">爱好计算机，会去自学一些感兴趣的东西 !</p>
+		<!-- 个人简介第二句 -->
+		<br>
+		<!-- 添加一个换行 -->
+		<p class="color_1">I am an ambitious salted fish!</p>
+		<!-- 英文自我描述第一句 -->
+		<p class="color_1">我是一位有野心的咸鱼!</p>
+		<!-- 中文自我描述第二句 -->
+		<br>
+		<!-- 添加一个换行 -->
+		<p class="deeppink">只要路是对的，就不怕路远。</p>
+		<!-- 鼓励性语句第一句 -->
+		<p class="deeppink">As long as the road is right, you are not afraid of the distance.</p>
+		<!-- 鼓励性语句第二句 -->
+		<div class="link">
+			<!-- 链接区域，包含多个联系方式的链接 -->
+			<a href="./dh.webp" class="dodgerblue" target="_blank">电话</a>
+			<!-- 电话联系方式链接 -->
+			<a href="./qq.webp" class="deeppink_1" target="_blank">QQ</a>
+			<!-- QQ联系方式链接 -->
+			<a href="./vx.jpg" class="magenta" target="_blank">微信</a>
+			<!-- 微信联系方式链接 -->
+			<a href="./mail.webp" class="orange" target="_blank">邮箱</a>
+			<!-- 邮箱联系方式链接 -->
+		</div>
+	</div>
+</div>
+</div>
+</body>
+
+</html>

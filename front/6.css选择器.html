@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssxuanzeqi</title>
+
+    <style>
+        /* yuansu */
+h2{
+    color: aqua;
+}
+/* lei */
+.hightlight{
+background-color: yellow;
+}
+/*  id*/
+#header{
+font-size: 35px;
+}
+/* tongyong */
+*{
+    font-family: 'kaiti';
+    font-weight: bolder;
+}
+/* zi */
+.father >.son{
+color: yellowgreen;
+}
+.father p{
+    color: brown;
+    font-size: large;
+}
+/* xiongdi */
+h3+p{
+background-color: red; 
+}
+
+#element:hover{
+    background-color: blueviolet;
+}
+
+/* diy
+:first-child
+:nth-child(
+:active   
+)
+*/
+/* weiyuansu
+::after
+::before
+
+
+
+
+*/
+
+
+    </style>
+</head>
+<body>
+    <h1>xuanzeqi</h1>
+    <h2>yuansu</h2>
+    <h3 class="hightlight">lei</h3>
+    <h3>lei2</h3>
+    <h4 id="header">id</h4>
+    <div class="father">
+        <p class="son">zi</p>
+        <div>
+            <p class="grandson">ziyuansu</p>
+        </div>
+    </div>
+
+<p>pp</p>
+<h3>xiongdi</h3>
+<p>lingpp</p>
+
+<h3 id="element">weilei</h3>
+
+</body>
+</html>
